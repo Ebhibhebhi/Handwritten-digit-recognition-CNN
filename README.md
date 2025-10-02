@@ -8,7 +8,7 @@ machine learning.
 As with most of us, the catalyst for my interest in neural networks was [this video](https://youtu.be/aircAruvnKk?si=4hzVh-wsm9fzu2Ss) by 3blue1brown, 
 where he explains the mathematics behind how neural networks can perform classification tasks using the example of handwritten digits. I was fascinated by just how 
 simple and elegant the mathematics was and therefore decided to implement the neuralnetwork myself, without using any DL frameworks so I could gain a deeper intuition 
-behind the function of CNNs.
+behind the function of neural networks (NNs).
 
 ## How it works
 
