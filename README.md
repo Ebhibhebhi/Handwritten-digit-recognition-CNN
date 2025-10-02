@@ -91,7 +91,7 @@ From the repo root, run:
 By default, the script:
 
 - **Loads MNIST** via `mnist_loader.py`  
-- **Builds a network** with layers `[784, 30, 10]`  
+- **Builds a network** with layers `[784, 100, 10]`  
 - **Trains** with `epochs=30`, `mini_batch_size=10`, `learning_rate=3`  
 - **Prints test accuracy** after each epoch  
 
@@ -101,5 +101,5 @@ By default, the script:
 `...`  
 `Epoch 29: 9463 / 10000`  
 
-With the default hyperparameters, the network typically reaches ~94–95% accuracy on the MNIST test set after training.
+With the default hyperparameters, the network typically reaches ~96–98% accuracy on the MNIST test set after training.
 You can experiment by editing `epochs`, `batch size`, `learning rate`, or the hidden layer size in `mnist_run.py`.
