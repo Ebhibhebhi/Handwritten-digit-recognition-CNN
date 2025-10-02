@@ -91,7 +91,7 @@ From the repo root, run:
 By default, the script:
 
 - **Loads MNIST** via `mnist_loader.py`  
-- **Builds a network** with layers `[784, 70, 10]`  
+- **Builds a network** with layers `[784, 30, 10]`  
 - **Trains** with `epochs=30`, `mini_batch_size=10`, `learning_rate=3`  
 - **Prints test accuracy** after each epoch  
 
